@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo.svg" />
+    <title>Simple Video Search</title>
+</head>
+<body>
+<header>
+        <img class="logo" src="./icons/logo.svg" alt="logo">
+        <h1>Simple Video Search Engine</h1>
+        <div class="search">
+            <input type="text" class="search-input" placeholder="Search"/>
+            <button class="search-btn"><img src="./icons/search-icon.svg" alt="search icon"></button>
+        </div>
+</header>
+<main>
+    <div class="video-list"></div>
+</main>
+<footer>
+    <div class="page-switcher">
+        <button class="prev-btn"><img src="./icons/arrow-left.svg" alt="arrow left"> Prev</button>
+        <span class="page-number"></span>
+        <button class="next-btn">Next <img src="./icons/arrow-right.svg" alt="arrow right"></button>
+    </div>
+    <div class="google-search">
+        <button class="google-search-btn"></button>
+    </div>
+</footer>
+<script async src="https://cse.google.com/cse.js?cx=a62cc4389bcbd419b"></script>
+<script src="script.js"></script>
+</body>
+</html>
